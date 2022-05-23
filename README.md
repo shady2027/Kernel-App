@@ -3,4 +3,5 @@
 
 ## 📱 Screenshots
 ### App Themes
- <img src="./home/shreya/Downloads/Screen1.jpeg" width="200"/> 
+ <img src="/home/shreya/Downloads/Screen 1.jpg" width="200"/> 
+ 
