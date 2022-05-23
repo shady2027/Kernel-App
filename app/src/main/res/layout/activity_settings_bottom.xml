@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.news.kernel.SettingsBottomActivity"
+    android:background="?attr/backgroundcolor"
+    >
+
+
+<androidx.appcompat.widget.SwitchCompat
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_switch"
+    android:layout_marginTop="16dp"
+    android:padding="10dp"
+    app:switchPadding="100dp"
+    android:fitsSystemWindows="false"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reading mode"
+        android:textColor="?attr/textcolor"
+        android:textSize="30sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@id/btn_switch"/>
+
+
+    <ImageButton
+        android:id="@+id/shareApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_switch"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/share_icon"
+        android:layout_marginStart="20dp"
+        android:padding="18dp"
+      />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_switch"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/shareApp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:text="Share this app"
+            android:textColor="?attr/textcolor"
+            android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/rateApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shareApp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ic_baseline_star_rate_24"
+        android:layout_marginStart="20dp"
+        android:padding="18dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shareApp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/rateApp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:text="Rate this app"
+        android:textColor="?attr/textcolor"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/aboutTheApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rateApp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ic_baseline_about_the_app"
+        android:layout_marginStart="20dp"
+        android:padding="18dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rateApp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/aboutTheApp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:text="About this app"
+        android:textColor="?attr/textcolor"
+        android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btn_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_alignParentBottom="false"
+        android:text="Log out"
+        android:backgroundTint="@color/button_color"
+        android:textColor="?attr/textcolor"
+        />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/app_color"
+        app:backgroundTint="@color/app_color"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/app_color"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.news.kernel.HomeActivity"
+    android:background="?attr/backgroundcolor">
+
+
+    <LinearLayout
+        android:id="@+id/intro_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/app_color"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/tv_explore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore here"
+        android:textSize="40sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        app:cardElevation="8dp"
+        android:layout_below="@id/tv_explore">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:defaultQueryHint="Search news"
+            style="@style/searchView"
+            android:theme="@style/searchView"
+            app:searchHintIcon="@color/black"
+            android:searchIcon="@drawable/search_icon"
+            android:background="@color/white"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_categories"
+        android:layout_below="@id/intro_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:scrollbarThumbHorizontal="@drawable/scrollbar"
+   >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:id="@+id/btn_all"
+                android:text="general"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color"
+                android:id="@+id/btn_tech"
+                android:text="technology"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:id="@+id/btn_business"
+                android:text="Business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:id="@+id/btn_sports"
+                android:text="Sports"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:id="@+id/btn_health"
+                android:text="Health"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:id="@+id/btn_science"
+                android:text="Science"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:id="@+id/btn_entertainment"
+                android:text="Entertainment"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp">
+            </Button>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_rv"
+        android:layout_below="@id/scroll_categories"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:backgroundTint="@color/app_color"
+        app:backgroundTint="@color/app_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/app_color"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        />
+
+
+
+</RelativeLayout>

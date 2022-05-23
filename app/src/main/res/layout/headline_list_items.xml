@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/app_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="6dp"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_margin="3dp">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:maxLines="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!-- heart like button -->
+<!--                <com.like.LikeButton-->
+<!--                    android:id = "@+id/btn_heart"-->
+<!--                    android:layout_gravity = "center"-->
+<!--                    android:layout_marginStart = "2dp"-->
+<!--                    android:layout_marginEnd = "15dp"-->
+<!--                    android:layout_marginBottom = "8dp"-->
+<!--                    android:layout_marginTop = "6dp"-->
+<!--                    android:layout_width = "20dp"-->
+<!--                    android:layout_height = "20dp"-->
+<!--                    app:icon_type = "heart"-->
+<!--                    app:circle_start_color = "#F1DD31"-->
+<!--                    app:dots_primary_color = "#0E77CC"-->
+<!--                    app:dots_secondary_color = "#FF1A4F"-->
+<!--                    app:circle_end_color = "#12A518"-->
+<!--                    app:icon_size = "40dp"-->
+<!--                    app:liked = "false"-->
+<!--                    app:anim_scale_factor = "2"-->
+<!--                    app:is_enabled = "true"-->
+<!--                  />-->
+
+                <TextView
+                    android:id="@+id/text_source"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/img_headline"
+            android:layout_weight="1"
+            android:src="@drawable/image_not_available"
+            android:scaleType="centerCrop">
+        </ImageView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

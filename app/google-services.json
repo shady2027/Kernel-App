@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155083772340",
+    "project_id": "kernel-ebfe8",
+    "storage_bucket": "kernel-ebfe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155083772340:android:4d098aa561b3588c2122e1",
+        "android_client_info": {
+          "package_name": "com.example.kernel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155083772340-asstierdtot23jpfa9qpkpsrkugiipqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI8m4SsXMvx-L4sWaHhk877-OzufocWRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155083772340-asstierdtot23jpfa9qpkpsrkugiipqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

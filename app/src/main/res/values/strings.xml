@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Kernel</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="all">All</string>
+    <string name="tech">Tech</string>
+    <string name="startups">Startups</string>
+    <string name="finance">Finance</string>
+    <string name="discover">Discover -</string>
+    <string name="news_from_all_around_the_world">News From All Around the World</string>
+    <string name="api_key">c44d04711a67450298888b31b0f7e5af</string>
+    <string name="app_about">Explore all the trending news at one place</string>
+    <string name="read_full_article">Read full article</string>
+    <string name="reading_mode">Reading mode</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="log_in">Log in</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="image">image</string>
+    <string name="share_this_app">Share this App</string>
+    <string name="about_this_app">Kernel is a news app that runs on the Android platforms. \n It categorises news in different genres like Sports news, Health news, Tech news, Science news, Business news, Entertainment news and general news as well. \n
+At the start, user needs to register/ log in via their email and they can log out in the future if they want to.
+The user can search for any particular article as well and can play around with the settings like changing the reading mode, rating the app and sharing the app.
+\n No user activity or data is monitored by this app.</string>
+</resources>
