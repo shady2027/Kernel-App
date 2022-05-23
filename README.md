@@ -4,4 +4,4 @@
 ## 📱 Screenshots
 ### App Themes
 
-![Screen 1](https://user-images.githubusercontent.com/95130870/169842067-4cb0a50b-e79e-4400-bcee-814e4e780358.jpg)
+![Screen 1](https://user-images.githubusercontent.com/95130870/169842067-4cb0a50b-e79e-4400-bcee-814e4e780358.jpg | width=100)
