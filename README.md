@@ -3,5 +3,11 @@
 
 ## 📱 Screenshots
 ### App Themes
- <img src="/home/shreya/Downloads/Screen 1.jpg" width="200"/> 
+
  
+![Uploading Screen 1.jpg…]()
+![Uploading screen 2.jpg…]()
+![Uploading screen 3.jpg…]()
+![Uploading screen 4.jpg…]()
+![Uploading screen 5.jpg…]()
+![Uploading screen 6.jpg…]()
