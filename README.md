@@ -4,10 +4,4 @@
 ## 📱 Screenshots
 ### App Themes
 
- 
-![Uploading Screen 1.jpg…]()
-![Uploading screen 2.jpg…]()
-![Uploading screen 3.jpg…]()
-![Uploading screen 4.jpg…]()
-![Uploading screen 5.jpg…]()
-![Uploading screen 6.jpg…]()
+
